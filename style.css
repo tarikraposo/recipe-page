@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3e5d8;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px;
+    width: 50%;
+    img {
+        width: 100%;
+        height: auto;
+    };
+}
+
+section {
+    h2 {
+        color: #7b5044;
+    } 
+}
+
+.preparation {
+    padding: 16px;
+    background-color: #fff7fc;
+    border-radius: .5rem;
+    h2{
+        color: #7f445d;
+    }
+    font-size: 16px;
+}
